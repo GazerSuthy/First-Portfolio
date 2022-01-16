@@ -34,10 +34,15 @@ const Hero = () => {
           {/* socials */}
           <section className="social-wrapper">
             <Icon icon={githubFill} className="social-icon github-icon" />
-            <Icon
-              icon={instagramFilled}
-              className="social-icon instagram-icon"
-            />
+            <a
+              href="https://www.instagram.com/gazersuthy/"
+              className="social-link"
+            >
+              <Icon
+                icon={instagramFilled}
+                className="social-icon instagram-icon"
+              />
+            </a>
             <Icon icon={facebookFill} className="social-icon facebook-icon" />
           </section>
 
@@ -47,7 +52,9 @@ const Hero = () => {
             <h4 className="abilities-head">
               Rise To Your Greatest Value With The Support Of My Creations
             </h4>
-            <div className="occupation-title">Front-End Developer</div>
+            {/* <div className="occupation-title">
+              Front-End Developer | Ui designer
+            </div> */}
             <p className="ability-text">
               "There are levels to this shit!" - Ralph Smart
             </p>

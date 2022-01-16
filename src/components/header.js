@@ -49,7 +49,15 @@ const Header = ({ setScrollTo }) => {
 
         <section className="social-wrapper header-social">
           <Icon icon={githubFill} className="social-icon github-icon" />
-          <Icon icon={instagramFilled} className="social-icon instagram-icon" />
+          <a
+            href="https://www.instagram.com/gazersuthy/"
+            className="social-link"
+          >
+            <Icon
+              icon={instagramFilled}
+              className="social-icon instagram-icon"
+            />
+          </a>
           <Icon icon={facebookFill} className="social-icon facebook-icon" />
         </section>
 

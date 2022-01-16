@@ -23,7 +23,7 @@ const Resonate = ({ passedRef }) => {
             <article className="resonate-description">
               <h1>Resonate's origin</h1>I created resonate after researching the
               healing benefits of the 432hz frequency and discovered the
-              importance of listening to uplifting music in order to induce a
+              importance of listening to uplifting music in order to create a
               constructive mindset.
               <br></br> <br></br>I was in the search for a free music playing
               app that could play my favorite songs tuned to 432hz, but the

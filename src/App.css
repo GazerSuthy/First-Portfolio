@@ -56,6 +56,11 @@ body {
   position: relative;
   padding: 7px;
 }
+.logo-wrapper:hover,
+.logo-wrapper:focus {
+  background: rgb(72, 70, 70, 1);
+  cursor: pointer;
+}
 .logo-text {
   display: none;
 }
@@ -221,6 +226,14 @@ body {
 .social-icon {
   font-size: 22px;
   margin-bottom: 0.5em;
+}
+.social-link {
+  color: rgb(65, 25, 25);
+  display: flex;
+}
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  color: white;
 }
 /* ability section */
 .abilities-wrapper {

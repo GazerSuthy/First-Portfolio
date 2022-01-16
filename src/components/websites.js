@@ -46,7 +46,7 @@ const Websites = ({ passedRef }) => {
           >
             visual hiearchy,
           </a>{" "}
-          and more techniques to produce their ideal website.
+          and more web development techniques to produce their ideal website.
         </h3>
         <div className="page-style"></div>
 
