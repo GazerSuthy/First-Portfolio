@@ -1,9 +1,9 @@
 import React from "react";
 
 import { Icon } from "@iconify/react";
-import githubFill from "@iconify/icons-akar-icons/github-fill";
+// import githubFill from "@iconify/icons-akar-icons/github-fill";
 import instagramFilled from "@iconify/icons-ant-design/instagram-filled";
-import facebookFill from "@iconify/icons-akar-icons/facebook-fill";
+// import facebookFill from "@iconify/icons-akar-icons/facebook-fill";
 import logo from "../gazersuthy_logo.png";
 
 const Header = ({ setScrollTo }) => {
@@ -48,7 +48,7 @@ const Header = ({ setScrollTo }) => {
         </nav>
 
         <section className="social-wrapper header-social">
-          <Icon icon={githubFill} className="social-icon github-icon" />
+          {/* <Icon icon={githubFill} className="social-icon github-icon" /> */}
           <a
             href="https://www.instagram.com/gazersuthy/"
             className="social-link"
@@ -58,7 +58,7 @@ const Header = ({ setScrollTo }) => {
               className="social-icon instagram-icon"
             />
           </a>
-          <Icon icon={facebookFill} className="social-icon facebook-icon" />
+          {/* <Icon icon={facebookFill} className="social-icon facebook-icon" /> */}
         </section>
 
         {/* mobile navigation */}

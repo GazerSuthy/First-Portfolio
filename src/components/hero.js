@@ -7,9 +7,9 @@ import sunset from "../images/sunset.png";
 // icons
 import { Icon } from "@iconify/react";
 import mail16Regular from "@iconify/icons-fluent/mail-16-regular";
-import githubFill from "@iconify/icons-akar-icons/github-fill";
+// import githubFill from "@iconify/icons-akar-icons/github-fill";
 import instagramFilled from "@iconify/icons-ant-design/instagram-filled";
-import facebookFill from "@iconify/icons-akar-icons/facebook-fill";
+// import facebookFill from "@iconify/icons-akar-icons/facebook-fill";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
 
           {/* socials */}
           <section className="social-wrapper">
-            <Icon icon={githubFill} className="social-icon github-icon" />
+            {/* <Icon icon={githubFill} className="social-icon github-icon" /> */}
             <a
               href="https://www.instagram.com/gazersuthy/"
               className="social-link"
@@ -43,7 +43,7 @@ const Hero = () => {
                 className="social-icon instagram-icon"
               />
             </a>
-            <Icon icon={facebookFill} className="social-icon facebook-icon" />
+            {/* <Icon icon={facebookFill} className="social-icon facebook-icon" /> */}
           </section>
 
           {/* abilities */}
