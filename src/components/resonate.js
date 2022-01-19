@@ -31,10 +31,7 @@ const Resonate = ({ passedRef }) => {
               prescription. That's when I decided to "Surpass My Limits" as Yami
               Sukehiro would say (one of my favorite anime characters) and build
               my own music web-app which promotes uplifting music tuned to 432hz
-              along with anime openings. I had some experience in coding,
-              however transitioning from coding a connect 4 game to an entire
-              music app seemed like climbing mount everest. But here we are, and
-              one thing for sure was that the journey was defenitely worth it!
+              along with classic anime openings.
             </article>
           </div>
           <div className="resonate-img-wrapper">
